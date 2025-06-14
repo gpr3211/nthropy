@@ -1,4 +1,4 @@
-package loadbby
+package main
 
 import (
 	"net/http"

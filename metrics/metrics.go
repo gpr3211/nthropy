@@ -14,7 +14,7 @@ type Metrics struct {
 	memory MemData
 }
 
-func main() {
+func CPuTick() {
 	ticker := time.NewTicker(time.Second)
 	defer ticker.Stop()
 	// Get per-core usage over 1 second
